@@ -111,8 +111,7 @@ function Questionaire() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization:
-            "Bearer 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", // Replace with your OpenAI API key
+           // Replace with your OpenAI API key
         },
         body: JSON.stringify(requestData),
       });

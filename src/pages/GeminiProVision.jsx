@@ -3,7 +3,7 @@ import { GoogleGenerativeAI } from "@google/generative-ai";
 import styles from "./Component.module.css";
 import { Link } from "react-router-dom";
 
-const API_KEY = "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"; // Replace with your API key
+const API_KEY = ""; // Replace with your API key
 const genAI = new GoogleGenerativeAI(API_KEY);
 
 async function fileToGenerativePart(file) {

@@ -71,8 +71,7 @@ function PdfToSummary() {
         method: "POST",
         headers: {
           "Content-Type": "application/json",
-          Authorization:
-            "Bearer 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", // Replace with your OpenAI API key
+          // Replace with your OpenAI API key
         },
         body: JSON.stringify(requestData),
       });
@@ -103,34 +102,36 @@ function PdfToSummary() {
   return (
     <div className={styles.body}>
       <header className={styles.header}>
-          <a className={styles.logo} href="#">
-            <img
-              alt="Mountain"
-              className={styles["logo-icon"]}
-              src="/images/logo.png"
-            />
-            <span className={styles["logo-text"]}>Git-R-Done</span>
-          </a>
-          <nav className={styles.nav}>
-            <Link to={"/"} className={styles["nav-element"]}>
-              Home
-            </Link>
-            <Link to={"/pdf-to-summary"} className={styles["nav-element"]}>
-              Summary
-            </Link>
-            <Link to={"/mindmap"} className={styles["nav-element"]}>
-              Mind Map
-            </Link>
-            <Link to={"/Questionaire"} className={styles["nav-element"]}>
-              Questionaire
-            </Link>
-            <Link to={"/GeminiProVision"} className={styles["nav-element"]}>
-              Analyze Image
-            </Link>
-          </nav>
-        </header>
+        <a className={styles.logo} href="#">
+          <img
+            alt="Mountain"
+            className={styles["logo-icon"]}
+            src="/images/logo.png"
+          />
+          <span className={styles["logo-text"]}>Git-R-Done</span>
+        </a>
+        <nav className={styles.nav}>
+          <Link to={"/"} className={styles["nav-element"]}>
+            Home
+          </Link>
+          <Link to={"/pdf-to-summary"} className={styles["nav-element"]}>
+            Summary
+          </Link>
+          <Link to={"/mindmap"} className={styles["nav-element"]}>
+            Mind Map
+          </Link>
+          <Link to={"/Questionaire"} className={styles["nav-element"]}>
+            Questionaire
+          </Link>
+          <Link to={"/GeminiProVision"} className={styles["nav-element"]}>
+            Analyze Image
+          </Link>
+        </nav>
+      </header>
       <div>
-        <h1 className="faltu" style={{opacity: '0'}}>efkgbwrbgoiebg</h1>
+        <h1 className="faltu" style={{ opacity: "0" }}>
+          efkgbwrbgoiebg
+        </h1>
         <h1>Generate Summary from Pdf</h1>
       </div>
       <div className={styles.container}>
