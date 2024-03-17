@@ -1,0 +1,111 @@
+/* Questionaire.module.css */
+
+.container {
+  margin: 20px;
+  padding: 20px;
+  border: 1px solid #ccc;
+}
+
+.fileInput {
+  margin-bottom: 10px;
+}
+
+.button {
+  margin-right: 10px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.questionContainer {
+  margin-bottom: 20px;
+}
+
+.question {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.options {
+  display: flex;
+  flex-direction: column;
+}
+
+.optionLabel {
+  margin-bottom: 5px;
+}
+
+.results {
+  margin-top: 20px;
+}
+
+.resultItem {
+  margin-bottom: 15px;
+}
+
+.correctAnswer {
+  font-weight: bold;
+}
+
+.resultStatus {
+  margin-top: 5px;
+  color: #4caf50;
+  /* Green color for correct, you can change it as needed */
+}
+/* Add these styles in Questionaire.module.css */
+
+.correct {
+  color: #4caf50; /* Green color for correct answer */
+}
+
+.incorrect {
+  color: #f44336; /* Red color for incorrect answer */
+}
+
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-element{
+  background-color: #0056b3;
+  padding: 4px;
+  margin: 5px;
+  color: white;
+  border-radius: 10%;
+}

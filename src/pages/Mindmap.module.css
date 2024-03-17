@@ -1,0 +1,83 @@
+.container {
+  display: flex;
+  flex-direction: row; /* Updated to row */
+  height: 100vh; /* Make the container cover the full height of the viewport */
+  background-color: #f3f4f6;
+}
+
+.leftPanel,
+.rightPanel {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%; /* Set the height of left and right panels to 100% */
+  border: 4px dashed #cbd5e0;
+  margin: 10rem;
+  border-radius: 0.5rem;
+  color: #4b5563;
+}
+
+.button {
+  margin-top: 1.5rem;
+  background-color: #3b82f6;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 0.5rem;
+}
+
+.imageContainer {
+  width: 16rem;
+  height: 16rem;
+  border: 4px dashed #cbd5e0;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 1;
+}
+
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}

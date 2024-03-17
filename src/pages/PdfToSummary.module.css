@@ -1,0 +1,171 @@
+/* Global Styles */
+.app {
+  font-family: "Arial", sans-serif;
+}
+
+/* Layout */
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  background-color: #f4f4f4;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.body {
+  /* position: fixed; */
+  overflow: hidden;
+}
+
+.header {
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+  background-color: #333;
+  color: white;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: white;
+}
+
+.logo-icon {
+  height: 2rem;
+  width: 2rem;
+  margin-right: 0.5rem;
+}
+
+.logo-text {
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+
+.nav {
+  display: flex;
+}
+
+.nav-link {
+  margin: 0 1rem;
+  text-decoration: none;
+  color: white;
+}
+
+.nav-element{
+  background-color: #0056b3;
+  padding: 4px;
+  margin: 5px;
+  color: white;
+  border-radius: 10%;
+}
+
+.main {
+  padding: 2rem;
+}
+
+.section {
+  padding: 2rem 0;
+}
+
+/* Buttons */
+.button {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.button:hover {
+  background-color: #0056b3;
+}
+
+.button.audio {
+  background-color: #28a745;
+}
+
+.button.audio:hover {
+  background-color: #218838;
+}
+
+.ExtractTextBtn {
+  display: block;
+  width: 100%;
+  padding: 10px 0;
+  margin-bottom: 10px;
+  border: none;
+  border-radius: 4px;
+  background-color: #007bff;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+.ExtractTextBtn:hover {
+  background-color: #0056b3;
+}
+
+/* File Input */
+.fileInput {
+  color: black;
+  margin-bottom: 10px;
+  opacity: 100;
+}
+
+/* Summary Box */
+.summary {
+  color: black;
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+/* Feature Grid */
+.feature-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+}
+
+.feature-image {
+  height: auto;
+  width: 30%;
+}
+
+.text-content {
+  width: 50%;
+}
+
+.feature-title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.feature-description {
+  font-size: 1rem;
+  margin: 0;
+}
+
+
+/* Hidden Element */
+.faltu {
+  visibility: hidden;
+  opacity: 0;
+}
